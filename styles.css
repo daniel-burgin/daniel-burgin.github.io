@@ -157,7 +157,9 @@ a:focus-visible {
 .hero {
   padding: 96px 0;
   text-align: center;
-  background: linear-gradient(135deg, #2d3e5c, #222b3c);
+  background:
+    linear-gradient(135deg, rgba(20, 29, 48, 0.78), rgba(10, 13, 25, 0.82)),
+    url("VideoCapture_20260706-110805.jpg") center center / cover no-repeat;
 }
 
 .hero-content {
@@ -197,7 +199,9 @@ a:focus-visible {
 }
 
 .section-alt {
-  background: var(--surface);
+  background:
+    linear-gradient(135deg, rgba(18, 23, 36, 0.84), rgba(10, 13, 20, 0.86)),
+    url("Perc Diff 4.png") center center / cover no-repeat;
 }
 
 .section h2 {
