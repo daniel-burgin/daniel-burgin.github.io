@@ -157,9 +157,10 @@ a:focus-visible {
 .hero {
   padding: 96px 0;
   text-align: center;
+  background-color: #000000;
   background:
     linear-gradient(135deg, rgba(20, 29, 48, 0.78), rgba(10, 13, 25, 0.82)),
-    url("VideoCapture_20260706-110805.jpg") center center / cover no-repeat;
+    url("VideoCapture_20260706-110805.jpg") center center / auto 115% no-repeat;
 }
 
 .hero-content {
